@@ -12,7 +12,7 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=96af5705d6f64a88e035781ef00e98a8"
 FILESEXTRAPATHS_prepend := "${THISDIR}/${PN}-${PV}:"
 
 SRCREV = "4f53b979a7d5f2bc8fa4b57d5646d68a461546e9"
-SRC_URI = "git@github.com:mbedded-ninja/YoctoHelloWorldApp.git"
+SRC_URI = "git://github.com/mbedded-ninja/YoctoHelloWorldApp.git"
 
 S = "${WORKDIR}/git"
 
